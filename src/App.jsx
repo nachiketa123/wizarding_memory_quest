@@ -16,7 +16,7 @@ import {
   Info,
   Compass
 } from 'lucide-react';
-import { AUTH_CREDENTIALS } from './components/Auth';
+import { AUTH_CREDENTIALS } from './components/Auth/AUTH';
 
 // import CSS file(s)
 import './App2.css'
