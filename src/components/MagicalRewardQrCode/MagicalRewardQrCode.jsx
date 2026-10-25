@@ -12,7 +12,7 @@ function MagicalRewardQrCode({ rewardText, error, setError }) {
   useEffect(() => {
     const fetchReward = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/get-reward', {
+        const response = await fetch('/api/get-reward', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

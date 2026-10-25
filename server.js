@@ -7,8 +7,7 @@ const PORT = 3001;
 // 1. Define which domains are allowed to talk to this server
 const ALLOWED_ORIGINS = [
   'http://localhost:5173',          // Default Vite local port
-  'http://localhost:4173',     
-  'http://192.168.29.157:5173',     // Vite preview port
+  'http://localhost:4173',         // Vite preview port
   'https://your-app.vercel.app'     // Replace with your live domain later
 ];
 
